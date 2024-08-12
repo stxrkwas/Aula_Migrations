@@ -1,5 +1,10 @@
 # Tarefa Migrations
 
+- Criar um projeto em Laravel.
+- Criar um banco de dados MySQL.
+- Conectar o projeto com o banco.
+- Criar migration com a seguinte estrutura: variáveis:( id, nome com 50 espaços, telefone com 14 espaços, email om 50 espaços, motivo do contato, e mensagem);
+  
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
