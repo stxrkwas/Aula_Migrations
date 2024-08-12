@@ -27,6 +27,8 @@ SET time_zone = "+00:00";
 -- Estrutura da tabela `contato`
 --
 
+CREATE DATABASE newdb;
+
 CREATE TABLE `contato` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `name` varchar(50) NOT NULL,
