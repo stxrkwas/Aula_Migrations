@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('email', 50);
             $table->text('motivo_contato');
             $table->text('mensagem');
+            
             $table->timestamps();
         });
     }
