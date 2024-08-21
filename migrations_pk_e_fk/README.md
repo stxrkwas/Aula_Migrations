@@ -1,5 +1,3 @@
-# PK e FK:
-
 ## ATIVIDADE - ESTRUTURA DE BANCO DE DADOS NO LARAVEL - PARTE 1
 
 Criar duas estruturas de banco de dados no Laravel utilizando os comandos Artisan Migrate:
