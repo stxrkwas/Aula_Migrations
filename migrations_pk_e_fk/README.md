@@ -1,3 +1,27 @@
+#PK e FK (Tarefa)
+
+## ATIVIDADE - ESTRUTURA DE BANCO DE DADOS NO LARAVEL - PARTE 1
+
+Criar duas estruturas de banco de dados no Laravel utilizando os comandos Artisan Migrate:
+
+- Tabela Produtos:
+
+    - Id,
+    - Nome (string),
+    - Descricao (text),
+    - Peso (int),
+    - Preco (float),
+    - Estoque (int);
+
+- Tabela produto_detalhes:
+
+    - Id,
+    - Produto_id (unSignedBigInteger),
+    - Comprimento (float),
+    - Largura (float),
+    - Altura (float),
+    - Chave estrangeira Produto_Id com Id da tabela produtos.     
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
