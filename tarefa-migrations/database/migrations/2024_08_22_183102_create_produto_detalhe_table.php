@@ -8,15 +8,12 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+     *
+     * @return void
      */
-    public function up(): void
+    public function up()
     {
-        Schema::create('produto_detalhes', function (Blueprint $table) {
-            $table->id();
-            $table->unsignedBigInteger('produto_id');
-            $table->float();
-            $table->id();
-            $table->id();
+        Schema::create('produto_detalhe', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
         });
@@ -24,9 +21,11 @@ return new class extends Migration
 
     /**
      * Reverse the migrations.
+     *
+     * @return void
      */
-    public function down(): void
+    public function down()
     {
-        Schema::dropIfExists('produto_detalhes');
+        Schema::dropIfExists('produto_detalhe');
     }
 };
