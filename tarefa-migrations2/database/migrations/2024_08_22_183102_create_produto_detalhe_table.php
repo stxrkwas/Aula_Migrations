@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('produto_detalhe', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('produto_id');
+            $table->float('comprimento');
+            $table->float('largura');
+            $table->float('altura');
+            $table->foreign('produto_id')->references('id')->on('produtos');
+            $table->unique('produto_id');
             $table->timestamps();
         });
     }
